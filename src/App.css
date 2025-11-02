@@ -1,0 +1,17 @@
+/* Mobile-first responsive styles */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Ensure PDF viewer is responsive on mobile */
+iframe {
+  border: none;
+}
+
+/* Touch-friendly button sizes on mobile */
+@media (max-width: 640px) {
+  button {
+    min-height: 44px; /* iOS recommended touch target size */
+  }
+}
